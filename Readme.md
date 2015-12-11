@@ -4,6 +4,9 @@ Synchronous pretty yes/no question prompt inquirer style
 
 ![pretty-positive](./demo.gif)
 
+Utilizes [`syncoprompt`][] (via [`positive`][]) to provide 
+cross platform synchronous prompt without native bindings.
+
 ## API
 
 ```
@@ -27,7 +30,7 @@ after/inspired by the styles used by [`inquirer`][].
 
 ## Synchronous by Design
 
-`pretty=positive` is synchronous on purpose - in a CLI like environment there's
+`pretty-positive` is synchronous on purpose - in a CLI like environment there's
 little need for a prompt to be asynchronous (unless we wanted to do
 something in the background, in which case `pretty-positive` doesn't match your
 requirements). 
@@ -38,3 +41,4 @@ requirements).
 
 [`positive`]: http://npmjs.com/positive
 [`inquirer`]: http://npmjs.com/inquirer
+[`syncoprompt`]: http://npmjs.com/syncoprompt
