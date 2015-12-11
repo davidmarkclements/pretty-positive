@@ -1,6 +1,6 @@
 {
   "name": "pretty-positive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Synchronous pretty yes/no question prompt inquirer style",
   "main": "index.js",
   "author": "David Mark Clements",
